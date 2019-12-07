@@ -17,6 +17,7 @@ RUN pip3 install tensorflow && \
     pip3 install imutils && \
     pip3 install Pillow && \
     pip3 install awscli && \
+    pip3 install h5py && \
     apt-get update && \
     apt-get install -y libsm6 libxext6 libxrender-dev && \
     apt-get install unzip && \
